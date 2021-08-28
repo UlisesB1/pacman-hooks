@@ -1,3 +1,3 @@
 # pacman-hooks
 
-Personal repository of mine
+Personal repository of mine for pacman hooks.
