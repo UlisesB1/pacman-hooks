@@ -1,0 +1,13 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Depends = arch-audit
+Depends = curl
+Depends = openssl
+When = PostTransaction
+Exec = /usr/bin/arch-audit --color --recursive
